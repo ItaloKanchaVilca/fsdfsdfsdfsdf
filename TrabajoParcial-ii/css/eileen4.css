@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#area-cabecalho {
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+.branco {
+    color: white;
+}
+
+#area-cabecalho a:Link, #area-cabecalho a:visited {
+    color: black;
+    padding: 12px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: red;
+    background: #fff;
+    text-decoration: none;
+}
+#demotext {
+    color: #444444;
+
+    text-shadow: 1px 0px 1px #ac7777, 0px 1px 1px #000000, 1px 1px 1px #000000, 1px 2px 1px #000000, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 3px 1px #CCCCCC;
+    color: #444444;
+
+    }
+    
+.form-register{
+    width: 400px;
+    background: rgb(8, 3, 3);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial;
+    color: white;
+
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: cornsilk;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    font-family: Arial;
+    font-size: 18px;
+
+}
+.form-register .botons{
+    width: 100%;
+    background: rgb(236, 16, 45);
+    border: none;
+    padding: 12px;
+    color: white;
+
+
+
+}

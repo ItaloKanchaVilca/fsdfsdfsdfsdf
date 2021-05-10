@@ -1,0 +1,247 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 2em;
+    font-family :'Times New Roman', Times, serif;
+    background: #ebebeb;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 30px;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:Link, a:visited {
+        color: #f7b600;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+#area-cabecalho a:Link, #area-cabecalho a:visited {
+    
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #242424;
+    background: #fff;
+    text-decoration: none;
+}
+
+#area-cabecalho {
+    background: #383434;
+    justify-content: space-between;
+    text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    background: #CCC;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+.red {
+    color: rgb(255, 255, 255);
+}
+
+.branco {
+    color: white;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.progress-bar {
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 5px;
+    width: 350px;
+    margin: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+    .progress-bar span {
+        display: inline-block;
+        height: 100%;
+        border-radius: 3px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+        transition: width .4s ease-in-out;
+        background-color: #ccc;
+    }
+
+.red span {
+    background-color: #ffffff;
+}
+
+.orange span {
+    background-color: #f08630;
+    background-image: linear-gradient(top, #fecf23, #fd9215);
+}
+
+.stripes span {
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    animation: animate-stripes 3s linear infinite;
+}
+
+@keyframes animate-stripes {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 60px 0;
+    }
+}
+
+.shine span {
+    position: relative;
+}
+
+    .shine span::after {
+        content: '';
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        border-radius: 3px;
+        animation: animate-shine 2s ease-out infinite;
+    }
+
+@keyframes animate-shine {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 0;
+        width: 95%;
+    }
+}
+p{
+    padding:60px;
+    font-family: 'Quicksand', sans-serif;
+}
+.glow span {
+    box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+    animation: animate-glow 1s ease-out infinite;
+}
+
+@keyframes animate-glow {
+    0% {
+        box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+    }
+
+    50% {
+        box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;
+    }
+
+    100% {
+        box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+    }
+}
+.jne{
+    width:80px;
+    float:left;
+    margin-top:10px;
+	margin-bottom: 20px;
+    margin-left: 15px;
+}
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  #f33e3e;
+    display: block;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:20px;
+    width:100%;
+    color:white;
+    font-size: 15px;
+   
+}
+.postagem{
+	font-family: 'Quicksand', sans-serif;
+}

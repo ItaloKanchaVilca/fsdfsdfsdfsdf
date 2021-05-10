@@ -1,0 +1,270 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    
+}
+html{
+    font-size :14 px;
+    font-family :'Times New Roman', Times, serif;
+    
+    
+   
+}
+body{
+    
+    background-color:#ebebeb;
+}
+
+aside{
+    float:right;
+    
+}
+.general{
+    padding:60px;
+    font-family: 'Quicksand', sans-serif;
+}
+.jne{
+    width:80px;
+    float:left;
+    margin-top:30px;
+	margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.subforo-info{
+    color:rgb(192, 179, 179);
+}
+.right-bar{
+    width: 20px;
+    padding:20px;
+    align-content: center;
+}
+
+h1{
+    color:rgb(245, 245, 245);
+    font-size: medium;
+}
+p{
+    color:rgb(255, 255, 255);
+
+}
+span{
+    color:rgb(255, 255, 255);
+    
+}
+footer{
+    
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+   
+
+}
+
+.container{
+   min-height: calc(100vh-100px-100px);
+
+}
+.subforo{
+    margin-top :10px;
+}
+.close-icon{
+    color:black;
+}
+.subforo-title{
+    background-color: #1f1919;
+    padding:5px;
+    border-radius:5px;
+    margin:10px;
+    width:60%;
+    height:5%;
+    
+}
+i{
+    color: rgb(196, 79, 79);
+}
+.subforo-descripcion *{
+    margin-block:0;
+}
+.subforo-fila{
+    display:grid;
+    grid-template-columns:7% 60% 13% 20%;
+    
+}
+.subforo-columna{
+    padding: 10px;
+    margin:4px;
+    
+    border-radius:5px;
+    background-color: #383434;
+    border-color: rgb(247, 247, 247);
+}
+
+
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.subforo-icon i{
+    font-size:40px;
+}
+.subforo-dividor{
+    display: none;
+}
+
+  
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+	height: 100px;
+	background: #383434;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 65px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  #f33e3e;
+    display: block;
+    text-align: center;
+}
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    
+    
+   
+  }
+  .container-bar{
+	width: 100%;
+	max-width: 60px;
+	position: fixed;
+	left: 0;
+	top: 40%;
+}
+.container-bar a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	position: relative;
+	transition: all 500ms ease;
+	color: #fff;
+}
+.container-bar a:hover{
+	background: #1c1c1c;
+}
+.container-bar .fa-facebook{
+	background: #3b5998;
+	border-radius: 0px 5px 0px 0px;
+}
+.container-bar .fa-youtube{
+	background: #e52a23;
+}
+.container-bar .fa-twitter{
+	background: #00acee;
+}
+.container-bar .fa-github{
+	background: #747473;
+}
+.container-bar .fa-pinterest{
+	background: #c8232c;
+	border-radius: 0px 0px 5px 0px;
+}
+.container-bar #title{
+	position: absolute;
+	background: #1c1c1c;
+	padding: 0px 8px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 15px;
+	top:12px; left: 0px;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+.container-bar a:hover #title{
+	opacity: 1;
+	visibility: visible;
+	left: 64px;
+}
+.container-bar #title:after{
+	position: absolute;
+	content: '';
+	border-left: 7px solid transparent;
+	border-right: 6px solid #1c1c1c;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	right: 100%;
+	top: 8px;
+}
+#btn-social{
+	display: none;
+}
+.fa-play{
+	cursor: pointer;
+	transition: all 0.4s;
+	font-size: 12px;
+	margin-bottom: 5px;
+	display: inline-block;
+	transform: rotate(180deg);
+	color: #49b0e6;
+}
+#btn-social:checked ~ .fa-play{
+	transform: rotate(0deg);
+}
+.icon-social{
+	transition: all 0.4s;
+	transform: translateX(0%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+#btn-social:checked ~ .icon-social{
+	transform: translateX(-100%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
+}

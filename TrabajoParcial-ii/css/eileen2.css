@@ -1,0 +1,110 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(243, 242, 242);
+    font-family: Arial;
+}
+
+
+#area-cabecalho {
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+.branco {
+    color: white;
+}
+
+#area-cabecalho a:Link, #area-cabecalho a:visited {
+    color: black;
+    padding: 12px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: red;
+    background: #fff;
+    text-decoration: none;
+}
+
+.container-all {
+    width: 1000px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: white;
+    margin-top: 100px;
+    border-top: 8px solid rgb(235, 44, 10);
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.container-all img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container-all p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#demotext {
+    color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+#main-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    background-color: #FFFFFF;
+    text-align: left;
+    border-collapse: collapse;
+    width: 70%;
+    height: 70%;
+    ;
+}
+
+.table {
+    text-align: center;
+}
+
+th, td {
+    border: solid 1px black;
+    padding: 2%;
+}
+
+thead {
+    background-color: #FF3333;
+    border-bottom: solid 5px #330000;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+#imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
